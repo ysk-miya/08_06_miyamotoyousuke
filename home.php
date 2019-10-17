@@ -33,8 +33,8 @@
             <div class="card">
                 <img class="card-img" src="img/DT3Q1042.jpg" alt="Card image" width="960px" height="500px" />
                 <div class="card-img-overlay">
-                    <h1 class="card-text midashi display-4">メディカルフィットネススタジオ</h1>
-                    <p class="sub">あなたのためのオーダーメイドトレーニング</p>
+                    <h1 class="card-text font-italic display-4">メディカルフィットネススタジオ</h1>
+                    <h3 class="sub">あなたのためのオーダーメイドトレーニング</h3>
                 </div>
             </div>
             <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
