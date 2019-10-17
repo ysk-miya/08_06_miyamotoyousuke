@@ -9,8 +9,8 @@ if (
     !isset($_POST['name']) || $_POST['name'] == '' || //空っぽでは困るのでチェック
     !isset($_POST['email']) || $_POST['email'] == '' ||
     !isset($_POST['event']) || $_POST['event'] == '' ||
-    !isset($_POST['age']) || $_POST['age'] == ''
-    // !isset($_POST['comment']) || $_POST['comment'] == ''
+    !isset($_POST['age']) || $_POST['age'] == '' ||
+    !isset($_POST['comment']) || $_POST['comment'] == ''
 ) {
     exit('ParamError');
 }

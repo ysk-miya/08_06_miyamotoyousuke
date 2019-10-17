@@ -17,7 +17,7 @@ $pdo = connectToDb();
 
 
 //データ表示SQL作成
-$sql = 'SELECT * FROM event_table';
+$sql = 'SELECT * FROM event_table ORDER BY event ASC;';
 $stmt = $pdo->prepare($sql);
 $status = $stmt->execute();
 
